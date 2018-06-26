@@ -1,0 +1,24 @@
+{
+  "name": "hapi-drip",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "hapi",
+    "hapi",
+    "plugin"
+  ],
+  "author": "James Dixon <jim.w.dixon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "5.2.0",
+    "hapi": "^17.5.2",
+    "lab": "15.5.0",
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+  }
+}
