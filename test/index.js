@@ -69,7 +69,7 @@ it('throws an error if `token` is not supplied as an option', async () => {
 
   const rejects = () => server.register(plugin)
 
-  await expect(rejects()).to.reject(Error, 'Please supply a valid `token` in the plugin options.')
+  await expect(rejects()).to.reject(Error, 'Please supply a valid `token` in the hapi-drip plugin options.')
 })
 
 it('throws an error if `accountId` is not supplied as an option', async () => {
@@ -81,5 +81,5 @@ it('throws an error if `accountId` is not supplied as an option', async () => {
 
   const rejects = () => server.register(plugin)
 
-  await expect(rejects()).to.reject(Error, 'Please supply a valid `accountId` in the plugin options.')
+  await expect(rejects()).to.reject(Error, 'Please supply a valid `accountId` in the hapi-drip plugin options.')
 })
